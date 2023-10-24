@@ -15,7 +15,7 @@ ListaDeTeclas[0].onclick = tocaSomPom;
 let contador = 0;
 
 //Estrutura de repetição "while" significa "enquanto algo acontecer"
-while(contador < 9 ){
+while(contador < ListaDeTeclas.length ){
     ListaDeTeclas[contador].onclick = tocaSomPom;
     contador = contador + 1;
     console.log(contador);
