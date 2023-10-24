@@ -1,6 +1,6 @@
 :root {
   --cinza: #aaa;
-  --vermelha: black;
+  --vermelha: rgb(0, 0, 255);
   --vermelha-escura: black;
   --branca: #fff;
   --luz: rgb(0, 89, 255);
