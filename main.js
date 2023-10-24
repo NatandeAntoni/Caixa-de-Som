@@ -1,6 +1,6 @@
 //Criando/Declarando a função tocaSom com parâmetro idElementoAudio
 function tocaSom(idElementoAudio){
-    document.querySelector("idElementoAudio").play();
+    document.querySelector(idElementoAudio).play();
 }
 
 //Criando referência constante ListaDeTeclas buscando todos os itens pela classe .tecla
