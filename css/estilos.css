@@ -46,7 +46,7 @@ h1 {
   width: 120px;
 }
 
-.tecla.ativa,
+.tecla.ativa,    /*.ativa é pseudoclasse da classe .tecla*/
 .tecla:active {
   background-color: var(--vermelha);
   border: 4px solid  var(--vermelha);
