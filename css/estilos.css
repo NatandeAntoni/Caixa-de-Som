@@ -25,7 +25,7 @@ h1 {
 .teclado {
   border: 2px solid #000; /* Adicione esta linha para a borda preta */
   background: linear-gradient(to bottom, #001d6e 0%, #000033 100%);
-  box-shadow: 6px 8px 0 6px #4d4c4c, 10px 10px 10px #000;
+  box-shadow: 6px 8px 0 6px #202020, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
   gap: 10px;
