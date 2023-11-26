@@ -79,3 +79,56 @@ h1 {
   width: 100px; /* ajuste conforme necessário */
   height: 100px; /* ajuste conforme necessário */
 }
+  /* Testando */
+  
+.tecla {
+  background-color: var(--branca);
+  border-radius: 30px;
+  box-shadow: 3px 3px 0 var(--cinza);
+  color: var(--vermelha);
+  cursor: pointer;
+  height: 120px;
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 120px;
+  text-align: center;
+  width: 120px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  position: relative; /* Adicionado para ajustar a posição da imagem */
+}
+
+.tecla img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tecla.ativa,
+.tecla:active {
+  background-color: var(--vermelha);
+  border: 4px solid var(--vermelha);
+  box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
+  color: var(--branca);
+  outline: none;
+}
+
+.tecla.focus,
+.tecla:focus {
+  outline: none;
+  box-shadow: 1px 1px 10px var(--luz);
+}
+
+.tecla.active:focus,
+.tecla:active:focus {
+  box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+/* Ajuste o tamanho da tecla conforme necessário */
+.tecla {
+  width: 100px;
+  height: 100px;
+}
