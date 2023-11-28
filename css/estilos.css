@@ -8,13 +8,24 @@
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, blue 0%, black 100%);
+  background: linear-gradient(45deg, #001d6e, #000033);
+  background-size: 400% 400%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
   margin: 0;
+  animation: gradientAnimation 15s infinite alternate; /* Animação do gradiente */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
 }
 
 h1 {
